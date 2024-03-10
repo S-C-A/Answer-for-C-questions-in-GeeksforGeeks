@@ -107,3 +107,7 @@ void imaginary(char c1[], int sum[], int a){
     printf("%d %d \n", sum[0], sum[1]);//Prints the values. Although this isn't necessary, I added it to check the values.
 
 }
+
+
+
+

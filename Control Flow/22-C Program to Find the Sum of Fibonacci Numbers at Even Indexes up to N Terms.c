@@ -1,5 +1,5 @@
 // C Program to Find the Sum of Fibonacci Numbers at Even Indexes up to N Terms
-// Disclaimer: I used a recrusive function in order to get better at it but it appears the program works really slow compared to
+// Note: I used a recrusive function in order to get better at it but it appears the program works really slow compared to
 //how you would normally calculate the fibonacci series. Curious...
 #include <stdio.h>
 
