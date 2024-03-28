@@ -14,20 +14,20 @@ int main(){
 
     constant(polinomial,constants);
 
-    a = 2;
-    b = 6;
-    c = -20;
+    a = constants[0];
+    b = constants[1];
+    c = constants[2];
     printf("%d %d %d", a, b, c);
     D = (pow(b,2)) - (4*a*c);
 
 
     if (D > 0) {
         printf("There are two real roots!\n");
-        printf("The first root is: %.2f\n", (-b + sqrt(D)) / (2.0 * a));
-        printf("The second root is: %.2f\n", (-b - sqrt(D)) / (2.0 * a));
+        printf("The first root is: %.2f\n", (-b + sqrt(D)) / (2 * a));
+        printf("The second root is: %.2f\n", (-b - sqrt(D)) / (2 * a));
     } else if (D == 0) {
         printf("There is one real root!\n");
-        printf("The root is: %.2f\n", (float)-b / (2.0 * a));
+        printf("The root is: %d\n", -b / (2 * a));
     } else if (D < 0) {
         printf("There are no real roots!\n");
     }
