@@ -7,7 +7,7 @@ int main(){
 
     for (int i = 0; i < 5; i++)
     {
-        printf("%d\n", i[arr]);
+        printf("%d\n", i[arr]); //Research why this works, somehow...
     }
     
 
