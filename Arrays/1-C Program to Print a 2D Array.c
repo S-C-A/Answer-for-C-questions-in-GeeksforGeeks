@@ -9,6 +9,4 @@ int main(){
     {
         printf("%d\n", i[arr]); //Research why this works, somehow...
     }
-    
-
 }
