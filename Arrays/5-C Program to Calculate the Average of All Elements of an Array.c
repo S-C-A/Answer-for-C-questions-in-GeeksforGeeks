@@ -16,7 +16,7 @@ int main(){
         ave += i[arr];
     }
     
-    printf("The average of all the elements of the array is: %d", ave);
+    printf("The average of all the elements of the array is: %d", ave/5);
 
 
 
