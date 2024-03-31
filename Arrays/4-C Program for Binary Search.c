@@ -28,13 +28,18 @@ int binsearch(int arr[], int left, int right, int question) {
     while (left <= right) {
 
         int mid = left + (right - left) / 2;
-        if (arr[mid] == question) {
+        if (arr[mid] == question) 
+        {
             return mid+1;
-        } else if (arr[mid] < question) {
+        } 
+        else if (arr[mid] < question) 
+        {
             left = mid + 1;
-        } else {
+        } 
+        else 
+        {
             right = mid - 1;
         }
     }
-    return -1; // Element not found
+    return -1; 
 }
