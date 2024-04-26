@@ -1,3 +1,4 @@
+//7-C Program to Sort an Array using Merge Sort
 #include <stdio.h>
 
 void mergesort(int[], int, int);
