@@ -3,8 +3,8 @@
 
 int main(){
 
-    int arr1[] = {1, 2, 3, 4, 5};
-    int arr2[] = {6, 7, 8, 9, 10}; 
+    int arr1[] = {1, 2, 3, 4, 5, 6};
+    int arr2[] = { 7, 8, 9, 10}; 
 
     int size1 = sizeof(arr1)/sizeof(arr1[0]);
     int size2 = sizeof(arr2)/sizeof(arr2[0]);
